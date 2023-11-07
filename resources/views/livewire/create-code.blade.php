@@ -3,8 +3,10 @@
         <textarea wire:model.live="message" name="" cols="30" rows="10" class="bg-white/10 text-white p-3 rounded">
         </textarea>
 
-        <p class="text-white">
-            {{ $message }}
-        </p>
     </form>
+    <p class="text-white">
+        {{ $message }}
+    </p>
 </div>
+
+@dd($this->letters())

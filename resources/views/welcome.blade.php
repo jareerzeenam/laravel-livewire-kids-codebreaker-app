@@ -9,6 +9,13 @@
                 </h1>
             </header>
             <livewire:create-code/>
+
+            <div class="text-white">
+                <span class="material-symbols-outlined">public</span>
+                <span class="material-symbols-outlined">rocket_launch</span>
+                <span class="material-symbols-outlined">waving_hand</span>
+                <span class="material-symbols-outlined">eco</span>
+            </div>
         </div>
     </section>
 </x-layout>
