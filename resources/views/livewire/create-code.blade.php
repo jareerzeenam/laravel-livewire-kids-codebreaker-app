@@ -4,9 +4,12 @@
         </textarea>
 
     </form>
-    <p class="text-white">
+    <div class="text-white">
+        @dump($this->letters())
         {{ $message }}
-    </p>
+    </div>
 </div>
 
-@dd($this->letters())
+{{-- @dd($this->letters()) --}}
+
+<!-- continue from episod 4 -->
