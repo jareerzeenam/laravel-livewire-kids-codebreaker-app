@@ -1,21 +1,10 @@
 <x-layout>
-    <section>
-
-        <div class="container">
-
+    <section class="container mx-auto px-6 h-full flex flex-col">
             <header class="flex justify-center">
                 <h1>
-                    <img src="/logo.svg" alt="Code Breaker" aria-label="COde Breaker">
+                    <img src="/logo.svg" alt="Code Breaker" aria-label="COde Breaker" class="print:invert">
                 </h1>
             </header>
             <livewire:create-code />
-
-            {{-- <div class="text-white">
-                <span class="material-symbols-outlined">public</span>
-                <span class="material-symbols-outlined">rocket_launch</span>
-                <span class="material-symbols-outlined">waving_hand</span>
-                <span class="material-symbols-outlined">eco</span>
-            </div> --}}
-        </div>
     </section>
 </x-layout>
