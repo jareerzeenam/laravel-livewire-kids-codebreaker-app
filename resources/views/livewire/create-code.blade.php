@@ -3,14 +3,12 @@
         <textarea wire:model.live="message" name="" cols="30" rows="10"
             class="bg-white/10 text-white py-2 py-3 rounded">
         </textarea>
-
+        <div class="mt-2 flex justify-end">
+            <button @click="window.print()" class="bg-blue-500 px-2 py-1 rounded-md">Print</button>
+        </div>
     </form>
 
     <x-code :message="$message" :letters="$this->letters" />
 
     <x-legend :letters="$this->letters"/>
 </div>
-
-{{-- @dd($this->letters()) --}}
-
-<!-- continue from episod 4 -->
